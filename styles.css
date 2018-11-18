@@ -1,0 +1,65 @@
+html{
+	height: 100%;
+	width: 100%;
+} 
+body{
+	/*background-color: rgb(241, 242, 228);*/
+	font-family: Baskerville;
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+	overflow: hidden;
+}
+html.homePage{
+	width: 100%;
+	background-color: rgb(255, 99, 71);
+}
+nav{
+	background-color: rgb(60, 179, 113);
+	position: absolute;
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+iframe{
+	height: 50em;
+	width: 80%;
+	float: right;
+	border: none;
+	overflow: hidden;
+}
+.storeName{
+	/*this color is Tomato*/
+	color: rgb(255, 99, 71);
+	font-size: 2em;
+	padding: 1em;
+}
+.tabLink{
+	/*this color is MediumSeaGreen*/
+	background-color: rgb(60, 179, 113);
+	color: rgb(255, 255, 255);
+	float: center;
+	border: none;
+	outline: none;
+	display: block;
+	cursor: pointer;
+	padding: 1.2em;
+	font-size: 1em;
+	width: 100%;
+}
+.tabLink:hover{
+	background-color: rgb(60, 140, 113);
+}
+.navFooter{
+	color: rgb(255,255,255);
+	padding: 2em;
+	margin-top: 100%;
+	justify-content: center;
+}
+.imageSlides{
+	max-width: 100%;
+}
+.mySlides{
+	display: none;
+	width: 100%;
+}

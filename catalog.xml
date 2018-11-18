@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<hands>
+		<name>Full Set Pink &amp; White Gell</name>
+		<price>$45.00</price>
+		<info>Also offer American</info>	
+	</hands>
+	<hands>
+		<name>Pink &amp; White Fill-In</name>
+		<price>$35.00</price>
+	</hands>
+	<hands>
+		<name>Pink Fill-In</name>
+		<price>$23.00</price>
+	</hands>
+	<hands>
+		<name>Full Set with Gel Polish</name>
+		<price>$30.00</price>
+	</hands>
+	<hands>
+		<name>Gel Fill-In</name>
+		<price>$30.00</price>
+	</hands>
+	<hands>
+		<name>Full Set Acrylic with Regular Polish</name>
+		<price>$25.00</price>
+	</hands>
+	<hands>
+		<name>Gel Polish Change</name>
+		<price>$22.00</price>
+	</hands>
+	<hands>
+		<name>Hand Polish Change</name>
+		<price>$8.00</price>
+	</hands>
+	<hands>
+		<name>Gel Manicure</name>
+		<price>$30.00</price>
+	</hands>
+	<hands>
+		<name>Manicure with Regular Polish</name>
+		<price>$15.00</price>
+	</hands>
+	<hands>
+		<name>Deluxe Manicure</name>
+		<price>$20.00</price>
+		<info>Paraffin wax dip included with manicure</info>
+	</hands>
+	<hands>
+		<name>Deluxe Manicure with Gel Polish</name>
+		<price>$35.00</price>
+		<info>Paraffin wax dip included with gel manicure</info>
+	</hands>
+	<!--Feet-->
+	<feet>
+		<name>Basic Pedicure</name>
+		<price>$25.00</price>
+		<info>Procedures: Clean cuticle and reshaping nails, foot scrub and exfoliating, then polish.</info>
+	</feet>
+	<feet>
+		<name>Spa Pedicure</name>
+		<price>$30.00</price>
+		<info>Procedures: Clean cuticle and reshaping nails, foot scrub and exfoliating, massage with orange and lime slices, cooling mask applied with warm towel wrap, then finish with polishing.</info>
+	</feet>
+	<feet>
+		<name>Deluxe Pedicure</name>
+		<price>$35.00</price>
+		<info>Procedures: Clean cuticle and reshaping nails, foot scrub and exfoliating, massage with orange and lime slices, cooling mask with warm towel wrap, massage with hot rocks then finish with polishing.</info>
+	</feet>
+	<feet>
+		<name>Tropical Pedicure</name>
+		<price>$35.00</price>
+		<info>Procedures: Clean cuticle and reshaping nails, foot scrub and exfoliating, massage with orange and lime slices, cooling mask with warm towel wrap, massage with hot rocks, feet are then dipped in paraffin wax, then finish with polishing.</info>
+	</feet>
+	<feet>
+		<name>Feet Polish Change</name>
+		<price>$10.00</price>
+	</feet>
+	<feet>
+		<name>Feet Gel Polish Change</name>
+		<price>$27.00</price>
+	</feet>
+	<misc>
+		<name>Gel / Acrylic Hand Repair</name>
+		<price>$3.00</price>
+	</misc>
+	<misc>
+		<name>Gel / Acrylic Nail Removal</name>
+		<price>$10.00</price>
+	</misc>
+	<misc>
+		<name>French Polish</name>
+		<price>$5.00</price>
+	</misc>
+	<misc>
+		<name>Cut Down</name>
+		<price>$3.00</price>
+	</misc>
+	<misc>
+		<name>Design (2 toes or fingers)</name>
+		<price>$5.00 &amp; Up</price>
+		<info>Prices may change depending on the quantity of nails</info>
+	</misc>
+	<misc>
+		<name>Deluxe Combo</name>
+		<price>$50.00</price>
+		<info>Deluxe Manicure &amp; Deluxe Pedicure</info>
+	</misc>
+</catalog>
