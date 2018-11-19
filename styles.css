@@ -1,45 +1,51 @@
+/*
+	THIS IS THE CSS STYLE SHEET FOR ALL HTML PAGE
+*/
+
+/* 
+	general css for all pages
+*/
 html{
-	max-height: 100%;
-	max-width: 100%;
+	max-height: 100vh;
+	max-width: 100vw;
 } 
 body{
 	/*background-color: rgb(241, 242, 228);*/
-	font-family: Baskerville;
 	padding: 0;
 	margin: 0;
-	min-height: 100%;
-	overflow: hidden;
+	min-height: 100vh;
 }
-html.homePage{
-	width: 100%;
-	background-color: rgb(255, 99, 71);
-}
+
+/* 
+	CSS for index page
+*/
 nav{
 	background-color: rgb(60, 179, 113);
 	position: absolute;
 	float: left;
 	width: 20vw;
 	height: 100vh;
+	overflow: hidden;
 }
 iframe{
 	display: block;
 	height: 100vh;
-	width: 100vw;
+	width: 80vw;
 	float: right;
 	border: none;
-	overflow: hidden;
+
 }
-.storeName{
-	/*this color is Tomato*/
-	color: rgb(255, 99, 71);
-	font-size: 2em;
+.title{
+	font-size: 1.9em;
+	justify-content: center;
 	padding: 1em;
+	font-weight: bold;
+	font-color: rgb(255,255,255);
 }
 .tabLink{
 	/*this color is MediumSeaGreen*/
 	background-color: rgb(60, 179, 113);
 	color: rgb(255, 255, 255);
-	float: center;
 	border: none;
 	outline: none;
 	display: block;
@@ -54,8 +60,17 @@ iframe{
 .navFooter{
 	color: rgb(255,255,255);
 	padding: 2em;
-	margin-top: 100%;
+	margin-top: 10vh;
 	justify-content: center;
+}
+
+/*
+	CSS for home page
+*/
+html.homePage{
+	width: 100%;
+	background-color: rgb(241, 242, 228);
+	overflow: hidden;
 }
 .imageSlides{
 	max-width: 100vw;
@@ -63,4 +78,32 @@ iframe{
 .mySlides{
 	display: none;
 	width: 100vw;
+}
+
+/*
+	CSS for about page
+*/
+html.aboutPage{
+	width: 100%;
+	background-color: rgb(241, 242, 228);
+	overflow: hidden;
+}
+.contact{
+	margin: 2em;
+	display: flex;
+	flex-direction: row;
+	margin-top: 5vh;
+}
+.contactInfo{
+	width: 50vw;
+	font-size: 3vh;
+	justify-content: center;
+}
+.map{
+	width: 60vw;
+	height: 50vh;
+	margin-left: 2em;
+	margin-top: 15vh;
+	border: 2px solid rgb(70,70,70);
+	border-radius: 8px;
 }
