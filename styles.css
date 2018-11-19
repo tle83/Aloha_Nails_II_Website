@@ -40,7 +40,7 @@ iframe{
 	justify-content: center;
 	padding: 1em;
 	font-weight: bold;
-	font-color: rgb(255,255,255);
+	color: rgb(255,255,255);
 }
 .tabLink{
 	/*this color is MediumSeaGreen*/
@@ -60,8 +60,9 @@ iframe{
 .navFooter{
 	color: rgb(255,255,255);
 	padding: 2em;
-	margin-top: 10vh;
 	justify-content: center;
+	position: absolute;
+	bottom: 0;
 }
 
 /*

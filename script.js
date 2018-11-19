@@ -36,29 +36,6 @@ function carousel(){
 }
 
 /*
-	script for catalog page
-*/
-//Show table of price listing
-/*
-var x, xmlhttp, xmlDoc;
-xmlhttp = new XMLHttpRequest();
-xmlhttp.open("GET", "catalog.xml", true);
-xmlhttp.send();
-xmlDoc = xmlhttp.responseXML;
-x = xmlDoc.getElementByTagName("service");
-var table = "<tr><th>Service</th><th>Price</th><th>Description</th></tr>";
-for(var i = 0; i < x.length; i++){
-		table += "<tr><td>";
-		table += x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-		table += "<tr><td>";
-		table += x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue;
-		table += "<tr><td>";
-		table += x[i].getElementsByTagName("info")[0].childNodes[0].nodeValue;
-		table += "</tr></td>";
-}
-document.getElementById("pricing").innerHTML = table;
-*/
-/*
 	script for about page
 */
 function myMap(){

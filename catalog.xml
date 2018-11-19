@@ -2,8 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
 <catalog>
 	<service>
+		<name>Deluxe Combo</name>
+		<price>$50.00</price>
+		<info>Deluxe Manicure &amp; Deluxe Pedicure</info>
+	</service>
+	<service>
 		<name>Ombre Full Set</name>
 		<price>$45.00</price>
+	</service>
+	<service>
+		<name>Dipping Nails</name>
+		<price>$35.00</price>
+	</service>
+	<service>
+		<name>Dipping Nails with Extentions</name>
+		<price>$40.00</price>
+		<info>Nails are made longer by attaching false nail extentions</info>
 	</service>
 	<service>
 		<name>Full Set Pink &amp; White Gel</name>
@@ -20,7 +34,7 @@
 	</service>
 	<service>
 		<name>Full Set with Gel Polish</name>
-		<price>$30.00</price>
+		<price>$40.00</price>
 	</service>
 	<service>
 		<name>Gel Fill-In</name>
@@ -74,7 +88,7 @@
 	<service>
 		<name>Tropical Pedicure</name>
 		<price>$40.00</price>
-		<info>Procedures: Clean cuticle and reshaping nails, foot scrub and exfoliating, massage with orange and lime slices, cooling mask with warm towel wrap, massage with hot rocks, service are then dipped in paraffin wax, then finish with polishing.</info>
+		<info>Procedures: Clean cuticle and reshaping nails, foot scrub and exfoliating, massage with orange and lime slices, cooling mask with warm towel wrap, massage with hot rocks, feet are then dipped in paraffin wax, then finish with polishing.</info>
 	</service>
 	<service>
 		<name>Feet Polish Change</name>
@@ -106,8 +120,8 @@
 		<info>Prices may change depending on the quantity of nails</info>
 	</service>
 	<service>
-		<name>Deluxe Combo</name>
-		<price>$50.00</price>
-		<info>Deluxe Manicure &amp; Deluxe Pedicure</info>
+		<name>Gel Polish with any service</name>
+		<price>$15.00</price>
+		<info>Any service with gel polish is an additional $15</info>
 	</service>
 </catalog>
