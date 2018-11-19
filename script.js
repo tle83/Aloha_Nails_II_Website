@@ -9,7 +9,7 @@ window.onload = function(){
 			document.getElementsById('iframe').src = this.value;
 		}
 	}
-};
+}
 
 //Slide show in home page
 var myIndex = 0;
