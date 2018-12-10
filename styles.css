@@ -19,9 +19,9 @@ body{
 /* 
 	CSS for index page
 */
-nav{
-	background-color: rgb(60, 179, 113);
-	position: absolute;
+nav.navd{
+	background-color: rgb(60, 153, 113);
+	position: fixed;
 	float: left;
 	width: 20vw;
 	height: 100vh;
@@ -44,7 +44,7 @@ iframe{
 }
 .tabLink{
 	/*this color is MediumSeaGreen*/
-	background-color: rgb(60, 179, 113);
+	background-color: rgb(60, 153, 113);
 	color: rgb(255, 255, 255);
 	border: none;
 	outline: none;
@@ -55,14 +55,65 @@ iframe{
 	width: 100%;
 }
 .tabLink:hover{
-	background-color: rgb(60, 140, 113);
+	background-color: rgb(60, 115, 113);
 }
 .navFooter{
 	color: rgb(255,255,255);
-	padding: 2em;
-	justify-content: center;
-	position: absolute;
-	bottom: 0;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+/*if desktop*/
+.mobile_360px{
+	display: none;
+}
+/* if mobile with max width 360px*/
+@media screen and (max-device-width: 480px){
+	.mobile_360px{
+		display: block;
+		max-width: 100vw;
+		min-height: : 100vh;
+	}
+	.desktop{
+		display: none;
+	}
+	nav.navm{
+		width: 100vw;
+		height: 10vh;
+		display: inline-block;
+		background-color: rgb(60, 153, 113);
+	}
+	.titlem{
+		color: rgb(255, 255, 255);
+		font-size: 1em;
+		font-weight: bold;
+		float: left;
+		padding: 1em;
+		margin: .5em;
+	}
+	.tabLinkm{
+		background-color: rgb(60, 153, 113);
+		color: rgb(255, 255, 255);
+		border: none;
+		outline: none;
+		display: inline-block;
+		padding: 1em;
+		float: right;
+		margin-top: 1em;
+		font-size: .7em;
+		font-weight: bold;
+	}
+	iframe.iframem{
+		height: 100vh;
+		width: 100vw;
+		border: none;
+	}
+	.navFooterm{
+		bottom: 0;
+		width: 100vw;
+		margin-top: 1em;
+		background-color: rgb(60, 153, 113);
+		color: rgb(255, 255, 255);
+	}
 }
 
 /*
@@ -75,6 +126,7 @@ html.homePage{
 }
 .imageSlides{
 	max-width: 100vw;
+	max-height: 100vh;
 }
 .mySlides{
 	display: none;

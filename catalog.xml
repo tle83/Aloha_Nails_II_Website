@@ -100,14 +100,14 @@
 	</service>
 	<service>
 		<name>Gel / Acrylic Hand Repair</name>
-		<price>$3.00</price>
+		<price>$3.00 per nail</price>
 	</service>
 	<service>
 		<name>Gel / Acrylic Nail Removal</name>
 		<price>$10.00</price>
 	</service>
 	<service>
-		<name>French Polish</name>
+		<name>French Tip Polish</name>
 		<price>$5.00</price>
 	</service>
 	<service>

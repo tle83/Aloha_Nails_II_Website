@@ -11,24 +11,53 @@
 	</header>
 	
 	<body>
-		<section>
-			<nav>
-				<!--PUT AN IMAGE HERE FOR THE NAME-->
-				<div class="title">ALOHA NAILS II</div>
-				<button class="tabLink" value="home.html">Home</button>
-				<button class="tabLink" value="about.html">About Us</button>
-				<button class="tabLink" value="catalog.xml">Pricing</button>
-				<div class="navFooter">
-					<center>
-						<h1>STILL UNDER CONSTRUCTION</h1><br/><br/>
-					
-						&copy; 2018 Tuyet Le www.nevicity.com<br/>
-					</center>
+		<div id="content">
+			<div class="desktop">
+				<!-- content for desktop ver.-->
+				<nav class="navd">
+					<!--PUT AN IMAGE HERE FOR THE NAME-->
+					<div class="title">ALOHA NAILS II</div>
+					<button class="tabLink" value="home.html">Home</button>
+					<button class="tabLink" value="about.html">About Us</button>
+					<button class="tabLink" value="catalog.xml">Pricing</button>
+					<div class="navFooter">
+						<center>
+							&copy; 2018 Tuyet Le <br />www.nevicity.com<br/>
+						</center>
+					</div>
+				</nav>
+				<div>
+					<iframe src="home.html" id="iframe"></iframe>
 				</div>
-			</nav>
-			<div>
-				<iframe src="home.html" id="iframe"></iframe>
+
 			</div>
-		</section>
+
+			<div class="mobile_360px">
+				<!-- content for mobile devices with 360px screen resolution -->
+				<nav class="navm">
+					<!--PUT AN IMAGE HERE FOR THE NAME-->
+					<div class="titlem">ALOHA NAILS II</div>
+					<button class="tabLinkm" value="catalog.xml">Pricing</button>
+					<button class="tabLinkm" value="about.html">About Us</button>
+					<button class="tabLinkm" value="home.html">Home</button>
+					<!--<div class="navFooterm">
+						<center>
+							&copy; 2018 Tuyet Le <br/> www.nevicity.com<br/>
+						</center>
+					</div>-->
+				</nav>
+				<div>
+					<iframe src="catalog.xml" id="iframe" class="iframem"></iframe>
+				</div>
+
+				<div class="navFooterm">
+						<center>
+							&copy; 2018 Tuyet Le www.nevicity.com<br/>
+						</center>
+					</div>
+			</div>
+		</div>
+		
 	</body>
+
 </html>
